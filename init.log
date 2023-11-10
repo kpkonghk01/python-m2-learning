@@ -20,6 +20,8 @@ conda activate ./env
 conda env list
 
 pip3 install torch torchvision torchaudio
+# or
+# conda install pytorch torchvision torchaudio -c pytorch
 conda install jupyter pandas numpy matplotlib scikit-learn tqdm
 
 conda env export > environment.yml
